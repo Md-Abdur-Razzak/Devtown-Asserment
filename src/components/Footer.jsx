@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/shopee.png'
 
 const Footer = () => {
     return (
@@ -6,7 +7,7 @@ const Footer = () => {
             
             <div className='md:flex md:justify-between flex-wrap  w-[80%] bg-red pt-[100px] mx-auto text-white'>
                 <div className='md:w-[300px] flex flex-col justify-center items-center gap-3 '>
-                    <img className='w-9' src={''} alt="" />
+                    <img className='w-9' src={logo} alt="" />
                     <p className='text-justify'>Technology and electronics refer to the fields of knowledge and the physical devices that involve the use of electrical circuits and digital systems to process, transmit, store, and manipulate information.</p>
                     <div className='flex gap-2 text-3xl font-bold'>
                         <h1> <i className="fa-brands fa-facebook" ></i> </h1>
